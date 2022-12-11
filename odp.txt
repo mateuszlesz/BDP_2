@@ -1,0 +1,7 @@
+Ad. 6
+5a -> overwrite
+5b -> add new row
+5c -> add new attribute
+
+Ad. 7
+dimmesion colums FIRTNAME change type jako fixed attribute -> determinuje, że wartość nie może się zmienić, co spowodowało błąd
