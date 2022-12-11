@@ -1,0 +1,24 @@
+Exec sp_help 'AdventureWorksDW2019.dbo.FactInternetSales'
+1 MySQL za pomocą polecenia SHOW CREATE TABLE "tablename"
+
+2. PostreSQL za pomocą poniższego polecania 
+"
+SELECT 
+   table_name, 
+   column_name, 
+   data_type 
+FROM 
+   information_schema.columns
+WHERE 
+   table_name = 'tablename';
+"
+3. Oracle za pomocą polecania DESCRIBE "tablename"
+
+
+Typy łączenia tabeli:
+
+INNER JOIN -> wiersze wspólna obu tabeli
+LEFT JOIN -> wszystkie wiersze lewej tabeli plus wiersze pasujące z prawej tabeli
+RIGHT JOIN -> wszystkie wiersze prawej tabeli plus wiersze pasujące z lewej tabeli
+OUTER JOIN -> wszystkie wiersze z obu tabel (iloczyn kartezjański)
+ANTY JOIN -> XOR
